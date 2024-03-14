@@ -1,0 +1,15 @@
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Высота контейнера равна высоте видимой области окна браузера */
+}
+
+.audio-player-size {
+    width: 80%; /* Ширина плеера */
+    height: 400px; /* Фиксированная высота плеера */
+    margin: auto; /* Центрирование по горизонтали */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

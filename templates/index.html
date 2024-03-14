@@ -1,0 +1,15 @@
+ <!DOCTYPE html>
+   <html>
+       <head>
+           <title>Audio Player</title>
+           <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+       </head>
+       <body>
+           <div  class="centered">
+               <audio controls loop class="audio-player-size">
+                   <source src="{{ url_for('static', filename='Egor_Letov_Vse_idet_po_planu.mp3') }}" type="audio/mp3">
+                   Your browser does not support the audio element.
+               </audio>
+           </div>
+       </body>
+   </html>
